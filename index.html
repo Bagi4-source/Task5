@@ -1,1 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+<div class="calc mx-auto my-4">
+    <div class="name">Обычный калькулятор</div>
+    <div class="form">
+        <label>Подсчитать стоимость: </label>
+        <input class="my-2" type="text" name="price" id="price" pattern="\d+[\.,]*\d*" value="0">
+        <input class="my-2" type="text" name="volume" id="volume" pattern="\d+" value="0">
+        <button class="my-2" id="get-price">Посчитать</button>
+    </div>
+    <div class="result">
+        <span class="result-text">0</span>
+        <span class="currency">₽</span>
+    </div>
+</div>
 
+<div class="calc-evo mx-auto my-4">
+    <div class="name">Хороший калькулятор</div>
+    <div class="form">
+        <label>Подсчитать стоимость: </label>
+        <input class="my-2 price" type="text" name="price" value="0">
+        <input class="my-2 volume" type="text" name="volume" value="0">
+        <button class="my-2 get-price">Посчитать</button>
+    </div>
+    <div class="result-evo">
+        <span class="result-text">0</span>
+        <span class="currency">₽</span>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+</html>

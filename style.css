@@ -1,0 +1,16 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+}
+
+html{
+    font-family: futura, sans-serif;
+}
+
+.calc {
+    max-width: 960px;
+}
